@@ -1,0 +1,121 @@
+@import './base';
+
+.home-title{
+  font-size: 75px;
+  margin: 0;
+  color: $cBrown;
+  
+}
+.home-subtitle{
+  font-size: 33px;
+  font-weight: lighter;
+}
+.header{
+  // height: 160px;
+  &_nav{
+    display: flex; 
+    // @extend .font-md;
+    font-size: 17px;
+    font-weight: bold;
+    
+  }
+  &-button{
+    display: inline;
+  }
+  &_ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  &_li{
+    margin-left: 20px;
+  }
+}
+
+
+.mobile-menu{
+  display: none;
+}
+
+.vision{
+  &-title{
+    // top: -10%;
+
+    & > p{
+      margin: 0;
+      font-size: 40px;
+      // font-weight: lighter;
+    }
+  }
+  &-subtitle{
+      & > p{
+        font-size: 23px;
+        // font-weight: lighter;
+      }
+  }
+}
+.service-title{
+  // background-color: gray;
+  text-align: center;
+  color: #38210d;
+  font-weight: normal;
+  font-size: 40px;
+}
+.swiper-slide-content{
+  font-size: 23px;
+}
+
+.recruit{
+  &-img{
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    width: 80%;
+    height: 80%;
+  }
+  &-content{
+    bottom: 5%;
+    width: 60%;
+    height: 60%;
+  
+    & > h2{
+      font-size: 35px;
+    }
+    & > p{
+      font-size:20px;
+    }
+  }
+}
+.swiper-slide{
+  height: 650px;
+}
+
+.border{
+
+  top: 10%;
+}
+
+.contact{
+  top: 10%;
+}
+.center{
+
+  & > .ul-small{
+    font-size: 23px;
+    font-style: noen;;
+  }
+  & > .ul-big{
+    font-size: 28px;
+  }
+}
+.footer-top{
+  // position: absolute;
+  top: 0px;
+  // left: 10px;
+  width: 135px;
+  & >p{
+    font-size: 2rem;
+  }
+}

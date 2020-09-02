@@ -1,0 +1,70 @@
+@import 'mixin';
+
+.vision-main.inview{
+    
+    @include animation(
+        $name: updown,
+        $duration: 1s,
+        $timing-function: ease-in-out,
+
+    )
+}
+
+.recruit.inview{
+    & .recruit-img{
+        @include animation(
+            $name: updown,
+            $duration: 1s,
+            $timing-function: ease-in-out,
+    
+        )
+    }
+
+    & .recruit-content{
+        opacity: 0;
+        @include animation(
+            $name: opacity-animation,
+            $duration: 1.3s,
+            $timing-function: ease-in-out,
+            $delay: 1s
+        )
+    }
+
+}
+.service{
+    opacity: 0;
+    &.inview{
+    
+    @include animation(
+        $name: opacity-animation,
+        $duration: 1.3s,
+        $timing-function: ease-in-out,
+        $delay: 1s
+        )
+    }
+}
+
+@keyframes updown{
+    0% {
+        opacity:0;
+        transform: translateY(40%);
+    }
+    70%{
+        opacity: 0.3;
+        // transform:  translateY(49%);
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0%);
+    }
+}
+@keyframes opacity-animation{
+    0% {
+        opacity:0;
+        // transform: translateY(40%);
+    }
+      100% {
+        opacity:1;
+        // transform: translateY(0%);
+    }
+}

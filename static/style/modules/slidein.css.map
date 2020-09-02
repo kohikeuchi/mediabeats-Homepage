@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,AACN,OAAO,CAAA;EACJ,OAAO,EAAE,EAAE;EACX,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,CAAC;EACT,gBAAgB,EAAE,KAAK;EACvB,OAAO,EAAE,CAAC;CACb",
+    "sources": [
+        "slidein.scss"
+    ],
+    "names": [],
+    "file": "slidein.css"
+}
