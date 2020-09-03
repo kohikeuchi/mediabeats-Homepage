@@ -985,7 +985,7 @@ a:hover {
 
 .top-page .home_content {
   position: absolute;
-  top: 40%;
+  top: 38%;
   left: 50%;
   width: 100%;
   -webkit-transform: translate(-50%, -50%);
@@ -1722,7 +1722,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .top-page .home_content {
     position: absolute;
-    top: 40%;
+    top: 38%;
     left: 50%;
     width: 100%;
     -webkit-transform: translate(-50%, -50%);
