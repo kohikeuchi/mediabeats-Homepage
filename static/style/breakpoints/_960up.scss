@@ -68,6 +68,7 @@
 }
 
 .recruit{
+  height: 650px;
   &-main{
     width: 72%;
   }
@@ -85,9 +86,11 @@
   
     & > h2{
       font-size: 35px;
+      margin-bottom: 50px;
     }
     & > p{
-      font-size:20px;
+      margin: 5px;
+      font-size:25px;
     }
   }
 }
@@ -103,7 +106,7 @@
 .contact{
   top: 10%;
   width: 80%;
-  height: 66%;
+  height: 750px;
 }
 
 .center{

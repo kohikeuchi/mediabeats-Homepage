@@ -28,6 +28,7 @@
 }
 
 .recruit{
+  height: 550px;
   &-main{
     position: relative;
     width: 80%;
@@ -52,7 +53,7 @@
     right: 0;
     bottom: 25%;
     width: 60%;
-    height: 40%;
+    height: 700px;
     background-color: white;
     outline: ridge 1px #f3f3f1;
     &:hover{
@@ -60,9 +61,11 @@
     }
     & > h2{
       font-size: 25px;
+      margin-bottom: 30px;
     }
     & > p {
       font-size:16px;
+      margin: 4px;
     }
   
 }

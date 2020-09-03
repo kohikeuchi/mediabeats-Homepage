@@ -511,12 +511,12 @@ a {
       box-shadow: 5px 5px 10px 0px rgba($color: #000000, $alpha: 1.0);
     }
     & h2{
-      margin: 0;
+      margin-bottom: 10px;;
       position: relative;
     }
     & > p{
       position: relative;
-      margin:0;
+      margin:2px;
       font-size:11px;
     }
   }
@@ -536,15 +536,20 @@ a {
 .contact{
 
   position: relative;
-  top: 4%;
+  top: 40px;
   width: 93%;
-  height: 110%;
+  height: 620px;
   margin: 0 auto;
   // background-color: rgb($color: #97766c, $alpha:);
   // outline: ridge 2px #f3f3f1;
   &:hover{
     box-shadow: 5px 5px 10px 0px rgba($color: #000000, $alpha: 1.0);
     // background-color: rosybrown;
+  }
+  &-form{
+    position: absolute;
+    height: 100%;
+    width: 100%;
   }
   &-input{
     padding: 10px 20px;
