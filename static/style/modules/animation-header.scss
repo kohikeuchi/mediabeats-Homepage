@@ -54,12 +54,21 @@
 }
 
 .menu-open{
+
+    // & .cover{
+    //     overflow: hidden;
+    // }
+
     & #container{
         transform: translate(-180px, 80px);
+        overflow: hidden;
     }
+
     & .mobile-menu{
         &__cover{
-        height:300% ;
+        // background-attachment: fixed;
+        position: fixed;
+        height:450%;
         opacity: 1;
         visibility: visible;
         }

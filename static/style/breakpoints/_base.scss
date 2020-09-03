@@ -237,7 +237,7 @@ a {
 
 
 .mobile-menu{
-  position: fixed;
+  position: absolute;
   right: 20px;
   top: 40px;
   width: 50px;
@@ -392,6 +392,7 @@ a {
 }
 
 .service{
+  overflow: hidden;
   position: relative;
   top: -50px;
   // left: 0;
@@ -509,8 +510,14 @@ a {
     &:hover{
       box-shadow: 5px 5px 10px 0px rgba($color: #000000, $alpha: 1.0);
     }
+    & h2{
+      margin: 0;
+      position: relative;
+    }
     & > p{
-      font-size:12px;
+      position: relative;
+      margin:0;
+      font-size:11px;
     }
   }
 }
@@ -530,8 +537,8 @@ a {
 
   position: relative;
   top: 4%;
-  width: 80%;
-  height: 66%;
+  width: 93%;
+  height: 110%;
   margin: 0 auto;
   // background-color: rgb($color: #97766c, $alpha:);
   // outline: ridge 2px #f3f3f1;
@@ -612,6 +619,7 @@ a {
   width: 90px;
   & >p{
     font-size: 1.3rem;
+    color: #000000;
   }
 }
 
@@ -619,13 +627,13 @@ a {
   margin: 0;
   position: relative;
   left: 12px;
-  bottom: -60%;
+  bottom: -29%;
   padding: 0;
   & > .ul-small{
-    font-size: 12px;
+    font-size: 11px;
     font-style: noen;;
   }
   & > .ul-big{
-    font-size: 14px;
+    font-size: 13px;
   }
 }

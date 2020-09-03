@@ -63,10 +63,12 @@
 .menu-open #container {
   -webkit-transform: translate(-180px, 80px);
           transform: translate(-180px, 80px);
+  overflow: hidden;
 }
 
 .menu-open .mobile-menu__cover {
-  height: 300%;
+  position: fixed;
+  height: 450%;
   opacity: 1;
   visibility: visible;
 }

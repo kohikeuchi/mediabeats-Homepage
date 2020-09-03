@@ -3,3 +3,28 @@
 Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 ******************************************************************/
+.contact{
+
+    position: relative;
+    top: 4%;
+    width: 90%;
+    height: 80%;
+}
+.center{
+    bottom: -50%;
+  }
+
+  .recruit{
+    &-content{
+
+      & h2{
+        margin: 0;
+        position: relative;
+      }
+      & > p{
+        position: relative;
+        margin:0;
+        font-size:13px;
+      }
+    }
+  }
