@@ -430,7 +430,11 @@ a {
         color: #38210d;
 
         & h1{
-          font-size: 30px;
+          font-size: 25px;
+        }
+        & p{
+          font-size: 13px;
+          margin: 3px;
         }
       }
 

@@ -28,3 +28,13 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
       }
     }
   }
+
+  .swiper-slide-content{
+    & > h1{
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    & > p{
+      font-size: 15px;
+    }
+  }

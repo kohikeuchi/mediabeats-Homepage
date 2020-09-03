@@ -16,6 +16,7 @@
       }
   }
 }
+
 .service-title{
   // background-color: gray;
   text-align: center;
@@ -23,9 +24,17 @@
   font-weight: normal;
   font-size: 35px;
 }
+
 .swiper-slide-content{
-  font-size: 20px;
+  & > h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+  & > p{
+    font-size: 18px;
+  }
 }
+
 
 .recruit{
   height: 550px;
@@ -73,6 +82,15 @@
 }
 .swiper-slide{
   height: 600px;
+}
+.swiper-slide-content{
+  & > h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+  & > p{
+    font-size: 18px;
+  }
 }
 
 .center{

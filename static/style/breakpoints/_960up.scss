@@ -63,9 +63,7 @@
   font-weight: normal;
   font-size: 40px;
 }
-.swiper-slide-content{
-  font-size: 23px;
-}
+
 
 .recruit{
   height: 650px;
@@ -96,6 +94,15 @@
 }
 .swiper-slide{
   height: 650px;
+}
+.swiper-slide-content{
+  & > h1{
+    font-size: 38px;
+    margin-bottom: 26px;
+  }
+  & > p{
+    font-size: 23px;
+  }
 }
 
 .border{
