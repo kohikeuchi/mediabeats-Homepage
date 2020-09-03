@@ -53,9 +53,10 @@
     right: 0;
     bottom: 25%;
     width: 60%;
-    height: 700px;
+    height: 45%;
     background-color: white;
     outline: ridge 1px #f3f3f1;
+  
     &:hover{
       box-shadow: 5px 5px 10px 0px rgba($color: #000000, $alpha: 1.0);
     }
@@ -68,8 +69,8 @@
       margin: 4px;
     }
   
+  }
 }
-} 
 .swiper-slide{
   height: 600px;
 }
@@ -97,6 +98,6 @@
 
 .contact{
   width: 80%;
-  height: 66%;
+  height: 650px;
 }
   

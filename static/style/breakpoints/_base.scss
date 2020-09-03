@@ -538,7 +538,7 @@ a {
   position: relative;
   top: 40px;
   width: 93%;
-  height: 620px;
+  height: 650px;
   margin: 0 auto;
   // background-color: rgb($color: #97766c, $alpha:);
   // outline: ridge 2px #f3f3f1;
@@ -563,6 +563,7 @@ a {
 .no-border{
   & > input{
     border-style: none;
+    margin: 0;
   }
 }
 

@@ -1226,7 +1226,7 @@ a:hover {
   position: relative;
   top: 40px;
   width: 93%;
-  height: 620px;
+  height: 650px;
   margin: 0 auto;
 }
 
@@ -1253,6 +1253,7 @@ a:hover {
 
 .no-border > input {
   border-style: none;
+  margin: 0;
 }
 
 .footer {
@@ -1417,7 +1418,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     right: 0;
     bottom: 25%;
     width: 60%;
-    height: 700px;
+    height: 45%;
     background-color: white;
     outline: ridge 1px #f3f3f1;
   }
@@ -1452,7 +1453,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .contact {
     width: 80%;
-    height: 66%;
+    height: 650px;
   }
 }
 
@@ -1931,7 +1932,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     position: relative;
     top: 40px;
     width: 93%;
-    height: 620px;
+    height: 650px;
     margin: 0 auto;
   }
   .contact:hover {
@@ -1953,6 +1954,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .no-border > input {
     border-style: none;
+    margin: 0;
   }
   .footer {
     margin: 0;
