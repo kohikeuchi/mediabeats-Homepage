@@ -1617,7 +1617,7 @@ a:hover {
   position: relative;
   top: 15%;
   width: 100%;
-  height: 400px;
+  height: 250px;
   background-image: url("../image/footer7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1926,11 +1926,14 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     font-size: 20px;
   }
   .center > .ul-small {
-    font-size: 17px;
+    font-size: 14px;
     font-style: noen;
   }
   .center > .ul-big {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .footer {
+    height: 300px;
   }
   .footer-top {
     left: 3px;
@@ -2803,7 +2806,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     position: relative;
     top: 15%;
     width: 100%;
-    height: 400px;
+    height: 250px;
     background-image: url("../image/footer7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -3102,11 +3105,11 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     height: 750px;
   }
   .center > .ul-small {
-    font-size: 23px;
+    font-size: 18px;
     font-style: noen;
   }
   .center > .ul-big {
-    font-size: 28px;
+    font-size: 24px;
   }
   .footer-top {
     top: 0px;
@@ -3162,10 +3165,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     }
   }
   .footer {
-    height: 500px;
+    height: 300px;
   }
   .center {
-    top: 45%;
+    top: 42%;
   }
 }
 
@@ -3228,12 +3231,6 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
       -webkit-transform: translateY(0%);
               transform: translateY(0%);
     }
-  }
-  .footer {
-    height: 500px;
-  }
-  .center {
-    top: 55%;
   }
   .news-date > p {
     font-size: 20px;

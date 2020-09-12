@@ -150,14 +150,16 @@
 .center{
 
   & > .ul-small{
-    font-size: 17px;
+    font-size: 14px;
     font-style: noen;;
   }
   & > .ul-big{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
-
+.footer{
+  height: 300px;
+}
 .footer-top{
   // position: absolute;
   // top: 12px;
