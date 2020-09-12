@@ -1,0 +1,272 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Beats</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href='{% static "style/style.css" %}'>
+   
+</head>
+
+<body>
+    {% if completed %}                 
+    <script>
+        alert('{{completed}}')
+    </script>
+    {% endif %}
+    <div id="global-container">
+        
+        <div id="container">
+            <div class="mobile-menu__cover"></div>
+            <header class="header">
+                <div class="header_inner">
+                    <div class="header_logo">
+                        <img src="{% static 'image/logo-alpha.png' %}" class="logo__img">
+                    </div>
+                    <!-- header_logo -->
+                    <nav class="header_nav">
+                        <ul class="header_ul">
+                            <li class="header_li"><a href="#home">ホーム</a></li>
+                            <li class="header_li"><a href="#vision">企業理念</a></li>
+                            <li class="header_li"><a href="#service">業務内容</a></li>
+                            <li class="header_li"><a href="#recruit">採用情報</a></li>
+
+                        </ul>
+                    </nav>
+                    <li class="header-button"><a href="#form" class="btn btn--circle"><i class="far fa-envelope"></i><br>お問い合わせ<i class="fas fa-angle-down fa-position-bottom"></i></a></li>
+
+                    <!-- header_nav -->
+                    <div class="mobile-menu">
+                        <button class="mobile-menu_button">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                <!-- mobile_menu -->
+
+                <!-- header_inner -->
+            </header>
+            <!-- header -->
+
+            <div class="top-page">
+                <div class="home" id="home">
+                    <div class="home-image">
+                        <img  class= 'img-fade' src="{% static 'image/home.jpeg' %}" alt="">
+                        <!-- <img class="desktop" src="image/home.jpeg" alt=""> -->
+
+                    </div>
+                    <!-- home-image -->
+                    <div class="home_content">
+                        
+                    <h1 class="home-title">Sky's The Limit </h1>
+
+                    <p class="home-subtitle">We make the best marketing solutions for your business</p>            
+                    </div>
+                    <!-- home-content -->
+                </div>
+                <!-- home -->
+            </div>
+            <!-- top-page -->
+
+
+            <div class="main-page">
+                <div id="vision"></div>
+                <div class="vision" >
+                    <div class="vision-main">
+                       
+
+                        <div class="vision-title">
+                            <p>企業理念</p>
+                        </div>
+                        <!-- vision-title -->
+                        <div class="vision-subtitle">
+                            <p>激しい勢いで変わる現代において、より効率的に商品を消費者へ届けるマーケティングを研究し続けていきます。SEOやSNSなど様々なマーケティングチャネルを想定し、常に既存の枠組みに囚われない発想、新しいアプローチを実践。</p>
+                        </div>
+                        <!-- vision-subtitle -->
+                    </div>
+                    <!-- main -->
+                </div>
+                <!-- vision -->
+                <div id="service"></div>
+                <div class="service" >
+                    <h1 class="service-title">業務内容 </h1>
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="{% static 'image/hero1.jpeg' %}" alt="">
+                                <div class="swiper-slide-content">
+                                    <h1>Webメディアの受託運営</h1>
+                                    <p >SEO特化のサイトを作成し、売上に繋げます​
+                                        専門のマーケティング集団が、市場と競合を分析し、SEOにおいて優位が取れるようなサイトを作成、運営致します。</p>
+                                </div>
+                                <!-- swiper-content -->
+                            </div>
+                            <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <img src="{% static 'image/hero2.jpeg' %}" alt="">
+                                <div class="swiper-slide-content">
+                                    <h1>SNSマーケティング支援</h1>
+                                    <p>効果的なマーケティング案を提案
+                                        インスタグラム、ツイッター、YouTubeなどのSNSにおいて効果的な施策を提案します。運用代行まで可能ですので、一括して依頼することができます。</p>
+                                </div>
+                                <!-- swiper-content -->
+                            </div>
+                             <!-- swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <img src="{% static 'image/hero3.jpeg' %}" alt="">
+                                <div class="swiper-slide-content">
+                                    <h1>Webコンサルティング</h1>
+                                    <p>SEOでの効果的な施策を提案
+                                        既にメディアを運営されている方で、さらにSEO順位を改善したい方をサポートします。現在の市場状況を分析し、最適なマーケティングソリューションを提案していきます。</p>
+                                </div>
+                                <!-- swiper-content -->
+                            </div>
+                             <!-- swiper-slide -->
+                        </div>
+                            <!-- swiper-wrapper -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>                  
+                    </div>
+                    <!-- swiper-container -->
+
+                </div>
+                <!-- service -->
+                <div class="recruit">
+                    <div  id="recruit"></div>
+                    <div class="recruit-title">
+                        <h1>採用情報</h1>
+                    </div>
+                    <!-- recruit-title -->
+                        <div class="recruit-main">
+                            <div class="recruit-img hover-darken">
+                                <img src="{% static 'image/recruit.jpeg' %}" alt="">
+                            </div>
+                            <!-- recruit-img -->
+                            <div class="recruit-content">
+                                <h2>職種：メディアライター</h2>
+                                <p>Medeia Beatsでは一緒に働けるライターの方を募集しております。新規メディアの記事や既存のメディアへの入稿など、様々なメディアの記事執筆をお願いします。</p>
+                            </div>
+                            <!-- recruit-content -->
+                        </div>
+                        <!-- recruit-main -->
+                    </div>
+                <!-- recruit -->    
+           </div>
+            <!-- main-page -->
+
+            <!-- <div class="border"></div> -->
+
+            <div class="contact" >
+                <div id="form"></div>
+                <div class="contact-title">
+                    <h1>お問合せ</h1>
+                </div>
+
+                <form action="" method="POST" class="contact-form"> 
+                    {% csrf_token %}  
+
+                    <p><input class="contact-input" type="text" name="name" required placeholder="名前"></p>
+                    <p><input class="contact-input" type="email" name="email" required placeholder="メールアドレス"></p>
+                    <p><input class="contact-input" name="subject" type="text" required  placeholder="件名"></p>
+                    <p> <textarea class="contact-input textarea" name="content" id="" cols="30" rows="20" placeholder="内容"></textarea></p>
+                    <p class="no-border"><input class="btn btn--circle" type="submit" value="送信"></p>   
+                </form>
+                    
+            </div>
+            <!-- contact -->
+            <div class="footer">
+                <footer class="footer-container 1">
+                    <div class="footer-content">
+                        <div class="footer-top"><p>​会社概要</p></div>
+
+                        <ul class="center">
+                            <li class="ul-big">会社名</li>
+                            <li class="ul-small">株式会社Media Beats</li>
+                            <br>
+                            <li class="ul-big">住所</li>
+                            <li class="ul-small">東京都中央区銀座1-22-11　<br>銀座大竹ビジデンス 2F</li>
+                        </ul>
+
+                    </div>
+                    <!-- footer-company -->
+                    <div class="footer-content 2">
+                        <ul class="center">
+                
+                            <li class="ul-big">代表</li>
+                            <li class="ul-small">櫻庭　悠汰</li>
+           
+                            <br>               
+                            <li class="ul-big">資本金</li>
+                            <li class="ul-small">1,000,000円</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- footer-detail -->
+                    <div class="footer-content 3">
+                        <div class="footer-logo"><img src="{% static 'image/logo-alpha.png' %}" alt=""></div>
+
+                        <div class="footer-bottom-copyright">
+                            <p>&copy;2020 Media Beats</p>
+                        </div>
+
+                    </div>
+                    <!-- copy-right -->
+                </footer>
+
+            </div>
+            <!-- footer -->
+        </div>
+        <!-- container -->
+        <nav class="mobile-menu_bottom">
+            <ul class="mobile-menu__main">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#home">
+                        <span class="main-title">ホーム</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#vision">
+                        <span class="main-title">企業理念</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#service">
+                        <span class="main-title">業務内容</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#recruit">
+                        <span class="main-title">採用情報</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#form">
+                        <span class="main-title"><div href="" class="btn btn--circle"><i class="far fa-envelope"></i><br>お問い合わせ<i class="fas fa-angle-down fa-position-bottom"></i></div></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- global-container -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="{% static 'script/hero-slider.js' %}"></script>
+
+    <script src= "{% static 'script/scroll-observer.js' %}"></script>
+
+    <script src="{% static 'script/main.js' %}"></script>
+
+</body>
+</html>

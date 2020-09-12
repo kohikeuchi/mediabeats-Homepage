@@ -6,9 +6,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 .contact{
 
     position: relative;
-    top: 4%;
+    // top: 4%;
     width: 90%;
     height: 80%;
+    // top: -135px;
 }
 .center{
     bottom: -50%;
@@ -28,13 +29,54 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
       }
     }
   }
+  #p{
+    // font-weight: bold;
+    font-size: 12px;
+  }
 
   .swiper-slide-content{
-    & > h1{
+    & > h2{
       font-size: 28px;
       margin-bottom: 20px;
     }
     & > p{
       font-size: 15px;
+    }
+  }
+
+
+.feature{
+    &_title{
+      font-size: 20px; 
+    }
+    &_comment{
+
+      font-size: 12px;
+          // margin: 20px aut;
+    }
+  }
+
+  .news{
+    &-img{
+      height: 40%;
+      width: 23%;
+      left: 6%;
+    }
+    &-date{
+      height: 60%;
+      width: 23%;
+      left: 6%;
+    }
+
+    &-title{
+      & > h2{
+        font-size: 22px;
+        // margin: 10px;
+      }
+    }
+    &-comment{
+      & > p{
+        font-size: 15px;
+      }
     }
   }

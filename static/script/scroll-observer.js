@@ -43,7 +43,7 @@ class ScrollObserver {
 
 
 const vision = document.querySelector('.vision-main');
-const service = document.querySelector('.service');
+const service = document.querySelector('.service-container');
 const recruit = document.querySelector('.recruit');
 // const child = document.querySelector('.child');
 // const child = document.querySelector('.child');
@@ -68,10 +68,6 @@ const options = {
 
 const io = new IntersectionObserver(addclass, options);
 
-io.observe(vision);
+// io.observe(vision);
 io.observe(service);
 io.observe(recruit);
-
-// io.observe(child);
-// io.observe(child);
-            

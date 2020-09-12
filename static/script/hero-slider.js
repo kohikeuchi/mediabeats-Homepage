@@ -15,10 +15,15 @@ class HeroSlider {
           // direction: 'vertical',
           loop: true,
           grabCursor: true,
-          // effect: 'fade',
+          effect: 'coverflow',
           centeredSlides: true,
           slidesPerView: 1,
           speed: 500,
+          breakpoints: {
+            960: {
+                slidesPerView: 1.4,
+            }
+        },
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
