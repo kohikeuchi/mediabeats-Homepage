@@ -878,7 +878,7 @@ header > h1 {
 header > h2 {
   margin-top: 0;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 h2 {
@@ -1486,6 +1486,11 @@ a:hover {
   vertical-align: text-bottom;
 }
 
+.recruit-info.title {
+  left: -5px;
+  width: 111%;
+}
+
 .recruit-info > p {
   position: relative;
   top: 1.5px;
@@ -1503,9 +1508,8 @@ a:hover {
 
 #p {
   font-weight: bold;
-  font-size: 11px;
+  font-size: 10px;
   position: relative;
-  left: -15px;
 }
 
 .recruit.inview .recruit-content {
@@ -1851,6 +1855,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
             flex-direction: column;
     margin-bottom: 0px;
   }
+  .recruit-info.title {
+    left: 10px;
+    width: 111%;
+  }
   .recruit-img {
     position: relative;
     top: 0;
@@ -1931,7 +1939,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     left: -20px;
   }
   #p {
-    font-size: 10px;
+    font-size: 8px;
   }
   .swiper-slide {
     height: 600px;
@@ -2171,7 +2179,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   header > h2 {
     margin-top: 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
   }
   h2 {
     text-align: center;
@@ -2697,6 +2705,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     width: 90%;
     vertical-align: text-bottom;
   }
+  .recruit-info.title {
+    left: -5px;
+    width: 111%;
+  }
   .recruit-info > p {
     position: relative;
     top: 1.5px;
@@ -2712,9 +2724,8 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   #p {
     font-weight: bold;
-    font-size: 11px;
+    font-size: 10px;
     position: relative;
-    left: -15px;
   }
   .recruit.inview .recruit-content {
     opacity: 0;
@@ -3053,6 +3064,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .recruit-info.title {
+    left: 12px;
+    width: 111%;
+  }
   .recruit-content {
     position: relative;
     width: 30%;
@@ -3104,7 +3119,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     font-size: 15px;
   }
   #p {
-    font-size: 13px;
+    font-size: 14px;
     left: -15px;
   }
   .swiper-slide {

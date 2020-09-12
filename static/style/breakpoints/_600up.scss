@@ -59,7 +59,12 @@
     flex-direction: column;
     margin-bottom: 0px;
   }
-
+  &-info{
+    &.title{
+      left: 10px;
+      width: 111%;
+    }
+  }
   &-img{
     position: relative;
     top: 0;
@@ -134,7 +139,7 @@
 }
 #p{
   // font-weight: bold;
-  font-size: 10px;
+  font-size: 8px;
 }
 
 

@@ -156,6 +156,12 @@
     flex-direction: row;
     justify-content:space-between;
   }
+  &-info{
+    &.title{
+      left: 12px;
+      width: 111%;
+    }
+  }
 
   &-content{
     position: relative;
@@ -212,7 +218,7 @@
   }
 }
 #p{
-  font-size: 13px;
+  font-size: 14px;
   left: -15px;
 }
 
