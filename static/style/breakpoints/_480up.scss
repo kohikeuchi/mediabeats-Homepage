@@ -11,10 +11,21 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     height: 80%;
     // top: -135px;
 }
-.center{
-    bottom: -50%;
-  }
 
+  .center{
+    margin: 0;
+    position: relative;
+    left: 12px;
+    bottom: -45%;
+    padding: 0;
+    & > .ul-small{
+      font-size: 11px;
+      font-style: noen;;
+    }
+    & > .ul-big{
+      font-size: 13px;
+    }
+  }
   .recruit{
     &-content{
 
@@ -83,3 +94,8 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
       }
     }
   }
+
+  .footer{
+    height: 250px;
+  }
+  

@@ -1,4 +1,9 @@
-
+.header{
+  height: 100px;
+  &_inner{
+    top: 20px;
+  }
+}
 .home-title{
   font-size: 100px;
 }

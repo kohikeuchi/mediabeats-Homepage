@@ -1,4 +1,9 @@
 
+.top-page{
+  .home_content{
+    top: 550px;
+  }
+}
 .home-title{
   font-size: 200px;
 }
@@ -13,6 +18,7 @@
     font-size: 25px;
   }
 }
+
 // .recruit{
 //   &-title{
 //     width: 58%;
@@ -65,4 +71,11 @@
   & >p{
     font-size: 20px;
   }
+}
+
+  .header{
+    height: 100px;
+    &_inner{
+      top: 20px;
+    }
 }
