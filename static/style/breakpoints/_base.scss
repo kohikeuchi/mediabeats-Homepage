@@ -7,6 +7,31 @@ body{
   background-color: rgba($color: #e6e4e4, $alpha: 0.2);
   
 }
+
+.input_button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 18px 22px;   /* 余白       */
+  background    :  #c91c1c;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 4px 4px 3px #5f0303;  /* 影の設定 */
+  
+
+
+  // border        : 2px solid #000066;    /* 枠の指定 */
+}
+.input_button:hover {
+  box-shadow    : none;  /* 影の設定 */
+  
+  color         :white;   /* 背景色     */
+  background    : #d45130;     /* 文字色     */
+}
+
 ul{
   list-style: none;
 }
@@ -316,7 +341,7 @@ a {
 
       &_content{
         position: absolute;
-        top: 38%;
+        top: 50%;
         left: 50%;
         width: 50%;
         max-width: 600px;
@@ -327,7 +352,7 @@ a {
   }
 }
 .home-title{
-  font-size: 75px;
+  font-size: 55px;
   margin: 0;
   color: white;
   font-weight: bold;
