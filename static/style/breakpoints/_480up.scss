@@ -66,6 +66,9 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
       height: 60%;
       width: 23%;
       left: 6%;
+      & >p{
+        font-size: 14px;
+      }
     }
 
     &-title{

@@ -65,3 +65,9 @@
 .center{
   top: 55%;
 }
+
+.news-date{
+  & >p{
+    font-size: 20px;
+  }
+}

@@ -1237,7 +1237,7 @@ a:hover {
 .news-container {
   position: relative;
   width: 90%;
-  max-width: 1300px;
+  max-width: 1100px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1281,7 +1281,7 @@ a:hover {
 }
 
 .news-date > p {
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .news-detail {
@@ -1730,6 +1730,9 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     width: 23%;
     left: 6%;
   }
+  .news-date > p {
+    font-size: 14px;
+  }
   .news-title > h2 {
     font-size: 22px;
   }
@@ -1919,6 +1922,9 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     height: 35%;
     width: 23%;
     left: 6%;
+  }
+  .news-date > p {
+    font-size: 18px;
   }
   .news-title > h2 {
     font-size: 26px;
@@ -2409,7 +2415,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   .news-container {
     position: relative;
     width: 90%;
-    max-width: 1300px;
+    max-width: 1100px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2448,7 +2454,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     height: 60%;
   }
   .news-date > p {
-    font-size: 20px;
+    font-size: 12px;
   }
   .news-detail {
     position: absolute;
@@ -3045,15 +3051,27 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   .news-img {
     height: 60%;
     width: 15%;
-    left: 13%;
+    left: 5%;
   }
   .news-date {
     height: 40%;
     width: 15%;
-    left: 13%;
+    left: 5%;
+  }
+  .news-date > p {
+    font-size: 18px;
+  }
+  .news-detail {
+    left: 22%;
+  }
+  .news-title {
+    width: 80%;
   }
   .news-title > h2 {
     font-size: 30px;
+  }
+  .news-comment {
+    width: 80%;
   }
   .news-comment > p {
     font-size: 19px;
@@ -3146,6 +3164,9 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .center {
     top: 55%;
+  }
+  .news-date > p {
+    font-size: 20px;
   }
 }
 

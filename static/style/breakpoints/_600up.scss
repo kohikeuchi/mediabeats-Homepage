@@ -194,6 +194,9 @@
     height: 35%;
     width: 23%;
     left: 6%;
+    & >p{
+      font-size: 18px;
+    }
   }
   &-title{
     & > h2{

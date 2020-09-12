@@ -261,20 +261,29 @@
   &-img{
     height: 60%;
     width: 15%;
-    left: 13%;
+    left: 5%;
   }
   &-date{
     height: 40%;
     width: 15%;
-    left: 13%;
+    left: 5%;
+    & >p{
+      font-size: 18px;
+    }
+  }
+  &-detail{
+    left: 22%;
   }
   &-title{
+    width: 80%;
     & > h2{
       font-size: 30px;
       // margin: 10px;
+
     }
   }
   &-comment{
+    width: 80%;
     & > p{
       font-size: 19px;
     }
