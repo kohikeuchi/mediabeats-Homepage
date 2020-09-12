@@ -475,10 +475,11 @@ a {
     // left: 0%;
     // right: 10%;
     width: 80%;
-    font-size: 6px;
+    font-size: 10px;
     height: 90px;
     margin: 13px 0;
-    & >p{
+    & > p{
+      // font-size: 10px;
       text-align: left;
     }
   }
@@ -762,7 +763,7 @@ a {
       top: 1.5px;
       margin:0;
       vertical-align: text-bottom;
-      font-size:1px;
+      font-size:10px;
       text-align: left;
     }
   }

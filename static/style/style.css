@@ -1174,7 +1174,7 @@ a:hover {
   position: relative;
   text-align: left;
   width: 80%;
-  font-size: 6px;
+  font-size: 10px;
   height: 90px;
   margin: 13px 0;
 }
@@ -1490,7 +1490,7 @@ a:hover {
   top: 1.5px;
   margin: 0;
   vertical-align: text-bottom;
-  font-size: 1px;
+  font-size: 10px;
   text-align: left;
 }
 
@@ -2400,7 +2400,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     position: relative;
     text-align: left;
     width: 80%;
-    font-size: 6px;
+    font-size: 10px;
     height: 90px;
     margin: 13px 0;
   }
@@ -2677,7 +2677,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     top: 1.5px;
     margin: 0;
     vertical-align: text-bottom;
-    font-size: 1px;
+    font-size: 10px;
     text-align: left;
   }
   #recruit_title {
