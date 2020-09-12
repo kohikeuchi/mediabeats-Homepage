@@ -1709,12 +1709,12 @@ a:hover {
   margin: 0;
   position: relative;
   left: 12px;
-  bottom: -40%;
+  bottom: -36%;
   padding: 0;
 }
 
 .center > .ul-small {
-  font-size: 6px;
+  font-size: 7px;
   font-style: noen;
 }
 
@@ -2918,11 +2918,11 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     margin: 0;
     position: relative;
     left: 12px;
-    bottom: -40%;
+    bottom: -36%;
     padding: 0;
   }
   .center > .ul-small {
-    font-size: 6px;
+    font-size: 7px;
     font-style: noen;
   }
   .center > .ul-big {
