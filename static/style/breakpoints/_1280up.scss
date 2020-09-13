@@ -1,4 +1,4 @@
-
+// @import './base';
 .top-page{
   .home_content{
     top: 550px;
@@ -78,4 +78,29 @@
     &_inner{
       top: 20px;
     }
+}
+
+.footer-bottom-copyright{
+  width: 240px;
+  bottom: 20px;
+  right:115px;
+  font-size: 16px;
+}
+.footer-logo{
+
+  width:240px;
+
+  right: 115px;
+
+}
+
+.center{
+
+  & > .ul-small{
+    font-size: 18px;
+    font-style: noen;;
+  }
+  & > .ul-big{
+    font-size: 24px;
+  }
 }

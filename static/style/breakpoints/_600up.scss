@@ -1,3 +1,4 @@
+@import './base';
 .header{
   height: 100px;
   &_inner{
@@ -180,14 +181,17 @@
     font-size: 1.4rem;
   }
 }
-.footer-bottom-copyright{
-  position: absolute;
-  margin: 0;
+.footer-logo{
+
   width:200px;
-  height: 30px;
-  bottom: 20px;
+
   right: 30px;
+
+}
+.footer-bottom-copyright{
+  width:200px;
   font-size: 16px;
+  bottom: 10px;
 }
 
 .contact{

@@ -917,7 +917,7 @@ a {
 .footer-logo{
   position: absolute;
   margin: 0;
-  width:100%;
+  width:120px;
   max-width: 240px;
   height: 20px;
   right: 30px;
@@ -928,11 +928,15 @@ a {
 .footer-bottom-copyright{
   position: absolute;
   margin: 0;
-  width:200px;
+  width:120px;
   height: 30px;
   bottom: 0px;
-  right: 0px;
+  right: 30px;
   font-size: 12px;
+  text-align: right;
+  & > p{
+    text-align: right;
+  }
 }
 
 .footer-top{
