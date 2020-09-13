@@ -169,6 +169,7 @@
 }
 .footer{
   height: 300px;
+  
 }
 .footer-top{
   // position: absolute;
@@ -178,6 +179,15 @@
   & >p{
     font-size: 1.4rem;
   }
+}
+.footer-bottom-copyright{
+  position: absolute;
+  margin: 0;
+  width:200px;
+  height: 30px;
+  bottom: 20px;
+  right: 30px;
+  font-size: 16px;
 }
 
 .contact{

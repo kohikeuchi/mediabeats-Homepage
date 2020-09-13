@@ -888,13 +888,12 @@ a {
     justify-content:space-between;
     &::after{
       content: '';
-      content: '';
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba($color: #000000, $alpha: 0.2);
+      background-color: rgba($color: #2600ff, $alpha: 0.1);
     }
     // background-color: black;
     
@@ -916,12 +915,12 @@ a {
 }
 
 .footer-logo{
-  position: relative;
+  position: absolute;
   margin: 0;
   width:100%;
   max-width: 240px;
   height: 20px;
-  right: 20%;
+  right: 30px;
   top: 35px;
   // right: 10px;
   font-size: 1.2rem;
@@ -931,10 +930,11 @@ a {
   margin: 0;
   width:200px;
   height: 30px;
-  bottom: 20px;
-  right: 30px;
-  font-size: 1.2rem;
+  bottom: 0px;
+  right: 0px;
+  font-size: 12px;
 }
+
 .footer-top{
   position: absolute;
   top: 12px;

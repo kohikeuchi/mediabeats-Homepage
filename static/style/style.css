@@ -1642,13 +1642,12 @@ a:hover {
 
 .footer-container::after {
   content: '';
-  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(38, 0, 255, 0.1);
 }
 
 .footer-content {
@@ -1673,12 +1672,12 @@ a:hover {
 }
 
 .footer-logo {
-  position: relative;
+  position: absolute;
   margin: 0;
   width: 100%;
   max-width: 240px;
   height: 20px;
-  right: 20%;
+  right: 30px;
   top: 35px;
   font-size: 1.2rem;
 }
@@ -1688,9 +1687,9 @@ a:hover {
   margin: 0;
   width: 200px;
   height: 30px;
-  bottom: 20px;
-  right: 30px;
-  font-size: 1.2rem;
+  bottom: 0px;
+  right: 0px;
+  font-size: 12px;
 }
 
 .footer-top {
@@ -1970,6 +1969,15 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .footer-top > p {
     font-size: 1.4rem;
+  }
+  .footer-bottom-copyright {
+    position: absolute;
+    margin: 0;
+    width: 200px;
+    height: 30px;
+    bottom: 20px;
+    right: 30px;
+    font-size: 16px;
   }
   .contact {
     width: 80%;
@@ -2857,13 +2865,12 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .footer-container::after {
     content: '';
-    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(38, 0, 255, 0.1);
   }
   .footer-content {
     width: 25%;
@@ -2886,12 +2893,12 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     z-index: 100;
   }
   .footer-logo {
-    position: relative;
+    position: absolute;
     margin: 0;
     width: 100%;
     max-width: 240px;
     height: 20px;
-    right: 20%;
+    right: 30px;
     top: 35px;
     font-size: 1.2rem;
   }
@@ -2900,9 +2907,9 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     margin: 0;
     width: 200px;
     height: 30px;
-    bottom: 20px;
-    right: 30px;
-    font-size: 1.2rem;
+    bottom: 0px;
+    right: 0px;
+    font-size: 12px;
   }
   .footer-top {
     position: absolute;
@@ -3158,6 +3165,18 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   .footer-top > p {
     font-size: 2rem;
   }
+  .footer-bottom-copyright {
+    position: absolute;
+    margin: 0;
+    width: 200px;
+    height: 30px;
+    bottom: 20px;
+    right: 115px;
+    font-size: 16px;
+  }
+  .footer-logo {
+    right: 120px;
+  }
   .news {
     top: 20px;
   }
@@ -3290,22 +3309,5 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   .header_inner {
     top: 20px;
   }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /******************************************************************
-
-Stylesheet: Retinaディスプレイで適用
-
-******************************************************************/
-  /* 
-
-EXAMPLE 
-.icon {
-	background: url(images/test@2x.png) no-repeat;
-	background-size: 24px 24px;
-}
-
-*/
 }
 /*# sourceMappingURL=style.css.map */
