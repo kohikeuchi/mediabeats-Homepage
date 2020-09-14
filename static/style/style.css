@@ -1042,6 +1042,7 @@ a:hover {
   left: 50%;
   width: 50%;
   max-width: 600px;
+  height: 60%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
@@ -2117,6 +2118,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     left: 50%;
     width: 50%;
     max-width: 600px;
+    height: 60%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     text-align: center;
@@ -3245,6 +3247,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     left: 50%;
     width: 50%;
     max-width: 600px;
+    height: 60%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     text-align: center;
@@ -3858,7 +3861,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     font-size: 9px;
   }
   .top-page .home_content {
-    top: 550px;
+    top: 56%;
   }
   .home-title {
     font-size: 130px;
@@ -4159,16 +4162,16 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 @media (min-width: 1280px) {
   .top-page .home_content {
-    top: 550px;
+    top: 58%;
   }
   .home-title {
-    font-size: 200px;
+    font-size: 170px;
   }
   .home-subtitle {
     color: white;
   }
   .home-subtitle.top {
-    font-size: 35px;
+    font-size: 31px;
     font-weight: bold;
   }
   .home-subtitle.bottom {
