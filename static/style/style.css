@@ -1040,7 +1040,7 @@ a:hover {
   position: absolute;
   top: 55%;
   left: 50%;
-  width: 49%;
+  width: 60%;
   max-width: 400px;
   height: 60%;
   -webkit-transform: translate(-50%, -50%);
@@ -1053,6 +1053,9 @@ a:hover {
   margin: 0;
   color: white;
   font-weight: bold;
+}
+
+.home-title.a {
   border-bottom: solid 4px white;
 }
 
@@ -1735,10 +1738,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 ******************************************************************/
   .top-page .home_content {
-    width: 40%;
+    width: 67%;
   }
   .home-title {
-    font-size: 13vh;
+    font-size: 9vh;
   }
   .home-subtitle {
     color: white;
@@ -2133,7 +2136,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     position: absolute;
     top: 55%;
     left: 50%;
-    width: 49%;
+    width: 60%;
     max-width: 400px;
     height: 60%;
     -webkit-transform: translate(-50%, -50%);
@@ -2145,6 +2148,8 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     margin: 0;
     color: white;
     font-weight: bold;
+  }
+  .home-title.a {
     border-bottom: solid 4px white;
   }
   .home-title > h1 {
@@ -3263,7 +3268,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     position: absolute;
     top: 55%;
     left: 50%;
-    width: 49%;
+    width: 60%;
     max-width: 400px;
     height: 60%;
     -webkit-transform: translate(-50%, -50%);
@@ -3275,6 +3280,8 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     margin: 0;
     color: white;
     font-weight: bold;
+  }
+  .home-title.a {
     border-bottom: solid 4px white;
   }
   .home-title > h1 {
@@ -3880,7 +3887,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     font-size: 9px;
   }
   .top-page .home_content {
-    top: 56%;
+    top: 53%;
     width: 40%;
   }
   .home-title {
@@ -4182,9 +4189,9 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 @media (min-width: 1280px) {
   .top-page .home_content {
-    top: 56%;
-    width: 30%;
-    max-width: 500px;
+    top: 53%;
+    width: 40%;
+    max-width: 650px;
   }
   .home-title {
     font-size: 15vh;

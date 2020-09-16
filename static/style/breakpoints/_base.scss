@@ -344,7 +344,7 @@ a {
         position: absolute;
         top: 55%;
         left: 50%;
-        width: 49%;
+        width: 60%;
         max-width: 400px;
         height: 60%;
         transform: translate(-50%, -50%);
@@ -360,7 +360,10 @@ a {
   color: white;
   // background-color: white;
   font-weight: bold;
-  border-bottom: solid 4px white;
+  // border-bottom: solid 4px white;
+  &.a{
+    border-bottom: solid 4px white;
+  }
   & > h1{
     margin: 0;
   }
