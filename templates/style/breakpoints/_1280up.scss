@@ -1,21 +1,23 @@
 // @import './base';
 .top-page{
   .home_content{
-    top: 58%;
+    top: 52%;
+    width: 37%;
+    max-width: 680px;
   }
 }
 .home-title{
-  font-size: 170px;
+  font-size: 120px;
 }
 .home-subtitle{
   color: white;
   &.top{
-    font-size:31px;
+    font-size:30px;
     font-weight: bold;
   }
   &.bottom{
     // font-weight: lighter;
-    font-size: 25px;
+    font-size: 23px;
   }
 }
 
@@ -74,9 +76,9 @@
 }
 
   .header{
-    height: 100px;
+    height: 75px;
     &_inner{
-      top: 20px;
+      top: 10px;
     }
 }
 

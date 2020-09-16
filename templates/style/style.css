@@ -2732,10 +2732,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     font-size: 9px;
   }
   .header {
-    height: 100px;
+    height: 65px;
   }
   .header_inner {
-    top: 20px;
+    top: 0px;
   }
   .home-title {
     font-size: 100px;
@@ -3862,9 +3862,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .top-page .home_content {
     top: 56%;
+    width: 40%;
   }
   .home-title {
-    font-size: 130px;
+    font-size: 100px;
   }
   .home-subtitle {
     color: white;
@@ -4153,29 +4154,31 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     top: 42%;
   }
   .header {
-    height: 100px;
+    height: 65px;
   }
   .header_inner {
-    top: 20px;
+    top: 0px;
   }
 }
 
 @media (min-width: 1280px) {
   .top-page .home_content {
-    top: 58%;
+    top: 52%;
+    width: 37%;
+    max-width: 680px;
   }
   .home-title {
-    font-size: 170px;
+    font-size: 120px;
   }
   .home-subtitle {
     color: white;
   }
   .home-subtitle.top {
-    font-size: 31px;
+    font-size: 30px;
     font-weight: bold;
   }
   .home-subtitle.bottom {
-    font-size: 25px;
+    font-size: 23px;
   }
   #p {
     font-size: 15px;
@@ -4227,10 +4230,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     font-size: 20px;
   }
   .header {
-    height: 100px;
+    height: 75px;
   }
   .header_inner {
-    top: 20px;
+    top: 10px;
   }
   .footer-bottom-copyright {
     width: 240px;

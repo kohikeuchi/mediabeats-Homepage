@@ -3,11 +3,12 @@
 .top-page{
   .home_content{
     top: 56%;
+    width: 40%;
   }
 }
 
 .home-title{
-  font-size: 130px;
+  font-size: 100px;
 }
 .home-subtitle{
   color: white;
@@ -342,8 +343,8 @@
 
 
   .header{
-    height: 100px;
+    height: 65px;
     &_inner{
-      top: 20px;
+      top: 0px;
     }
 }
