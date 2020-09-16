@@ -3,6 +3,30 @@
 Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 ******************************************************************/
+.top-page{
+  .home{
+    &_content{
+      width: 40%;
+    }
+  }
+}
+.home-title{
+  font-size: 13vh;
+}
+.home-subtitle{
+  color: white;
+  &.top{
+    font-size:2vh;
+    font-weight: bold;
+  }
+  &.bottom{
+    // font-weight: lighter;
+    font-size: 2vh;
+  }
+}
+
+
+
 .contact{
 
     position: relative;
@@ -11,6 +35,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     height: 80%;
     // top: -135px;
 }
+
 
   .center{
     margin: 0;

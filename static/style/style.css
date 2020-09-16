@@ -1038,10 +1038,10 @@ a:hover {
 
 .top-page .home_content {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
-  width: 50%;
-  max-width: 600px;
+  width: 49%;
+  max-width: 400px;
   height: 60%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -1049,7 +1049,7 @@ a:hover {
 }
 
 .home-title {
-  font-size: 55px;
+  font-size: 10vh;
   margin: 0;
   color: white;
   font-weight: bold;
@@ -1065,12 +1065,13 @@ a:hover {
 }
 
 .home-subtitle.top {
-  font-size: 15px;
+  margin-bottom: 10px;
+  font-size: 2vh;
   font-weight: bold;
 }
 
 .home-subtitle.bottom {
-  font-size: 12px;
+  font-size: 2vh;
 }
 
 .main-page {
@@ -1733,6 +1734,22 @@ a:hover {
 Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 ******************************************************************/
+  .top-page .home_content {
+    width: 40%;
+  }
+  .home-title {
+    font-size: 13vh;
+  }
+  .home-subtitle {
+    color: white;
+  }
+  .home-subtitle.top {
+    font-size: 2vh;
+    font-weight: bold;
+  }
+  .home-subtitle.bottom {
+    font-size: 2vh;
+  }
   .contact {
     position: relative;
     width: 90%;
@@ -2114,17 +2131,17 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .top-page .home_content {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    width: 50%;
-    max-width: 600px;
+    width: 49%;
+    max-width: 400px;
     height: 60%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     text-align: center;
   }
   .home-title {
-    font-size: 55px;
+    font-size: 10vh;
     margin: 0;
     color: white;
     font-weight: bold;
@@ -2137,11 +2154,12 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     color: white;
   }
   .home-subtitle.top {
-    font-size: 15px;
+    margin-bottom: 10px;
+    font-size: 2vh;
     font-weight: bold;
   }
   .home-subtitle.bottom {
-    font-size: 12px;
+    font-size: 2vh;
   }
   .main-page {
     position: relative;
@@ -2738,17 +2756,17 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     top: 0px;
   }
   .home-title {
-    font-size: 100px;
+    font-size: 15vh;
   }
   .home-subtitle {
     color: white;
   }
   .home-subtitle.top {
-    font-size: 22px;
+    font-size: 3vh;
     font-weight: bold;
   }
   .home-subtitle.bottom {
-    font-size: 18px;
+    font-size: 3vh;
   }
   .service-title {
     text-align: center;
@@ -3243,17 +3261,17 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .top-page .home_content {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    width: 50%;
-    max-width: 600px;
+    width: 49%;
+    max-width: 400px;
     height: 60%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     text-align: center;
   }
   .home-title {
-    font-size: 55px;
+    font-size: 10vh;
     margin: 0;
     color: white;
     font-weight: bold;
@@ -3266,11 +3284,12 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     color: white;
   }
   .home-subtitle.top {
-    font-size: 15px;
+    margin-bottom: 10px;
+    font-size: 2vh;
     font-weight: bold;
   }
   .home-subtitle.bottom {
-    font-size: 12px;
+    font-size: 2vh;
   }
   .main-page {
     position: relative;
@@ -3865,23 +3884,23 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     width: 40%;
   }
   .home-title {
-    font-size: 100px;
+    font-size: 13vh;
   }
   .home-subtitle {
     color: white;
   }
   .home-subtitle.top {
-    font-size: 25px;
+    font-size: 3vh;
     font-weight: bold;
   }
   .home-subtitle.bottom {
-    font-size: 21px;
+    font-size: 3vh;
   }
   .header_nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 17px;
+    font-size: 3vh;
     font-weight: bold;
   }
   .header-button {
@@ -4163,22 +4182,22 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 @media (min-width: 1280px) {
   .top-page .home_content {
-    top: 52%;
-    width: 37%;
-    max-width: 680px;
+    top: 56%;
+    width: 30%;
+    max-width: 500px;
   }
   .home-title {
-    font-size: 120px;
+    font-size: 15vh;
   }
   .home-subtitle {
     color: white;
   }
   .home-subtitle.top {
-    font-size: 30px;
+    font-size: 4vh;
     font-weight: bold;
   }
   .home-subtitle.bottom {
-    font-size: 23px;
+    font-size: 4vh;
   }
   #p {
     font-size: 15px;
@@ -4230,10 +4249,10 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     font-size: 20px;
   }
   .header {
-    height: 75px;
+    height: 65px;
   }
   .header_inner {
-    top: 10px;
+    top: 0px;
   }
   .footer-bottom-copyright {
     width: 240px;

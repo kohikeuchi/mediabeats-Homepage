@@ -1,23 +1,23 @@
 // @import './base';
 .top-page{
   .home_content{
-    top: 52%;
-    width: 37%;
-    max-width: 680px;
+    top: 56%;
+    width: 30%;
+ max-width: 500px;
   }
 }
 .home-title{
-  font-size: 120px;
+  font-size: 15vh;
 }
 .home-subtitle{
   color: white;
   &.top{
-    font-size:30px;
+    font-size:4vh;
     font-weight: bold;
   }
   &.bottom{
     // font-weight: lighter;
-    font-size: 23px;
+    font-size: 4vh;
   }
 }
 
@@ -75,11 +75,11 @@
   }
 }
 
-  .header{
-    height: 75px;
-    &_inner{
-      top: 10px;
-    }
+.header{
+  height: 65px;
+  &_inner{
+    top: 0px;
+  }
 }
 
 .footer-bottom-copyright{

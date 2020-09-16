@@ -342,10 +342,10 @@ a {
 
       &_content{
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 50%;
-        width: 50%;
-        max-width: 600px;
+        width: 49%;
+        max-width: 400px;
         height: 60%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -354,9 +354,11 @@ a {
   }
 }
 .home-title{
-  font-size: 55px;
+
+  font-size: 10vh;
   margin: 0;
   color: white;
+  // background-color: white;
   font-weight: bold;
   border-bottom: solid 4px white;
   & > h1{
@@ -364,14 +366,21 @@ a {
   }
 }
 .home-subtitle{
+
   color: white;
   &.top{
-    font-size:15px;
+   
+    // background-color: yellow;
+
+    margin-bottom: 10px;
+    font-size:2vh;
     font-weight: bold;
   }
   &.bottom{
+    
+    // background-color: yellowgreen;
     // font-weight: lighter;
-    font-size: 12px;
+    font-size: 2vh;
   }
 }
 .main-page{
