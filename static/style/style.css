@@ -1041,7 +1041,7 @@ a:hover {
   top: 55%;
   left: 50%;
   width: 60%;
-  max-width: 400px;
+  max-width: 600px;
   height: 60%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -1625,7 +1625,7 @@ a:hover {
 .footer {
   margin: 0;
   position: relative;
-  top: 15%;
+  bottom: -100px;
   width: 100%;
   height: 200px;
   background-image: url("../image/footer7.jpg");
@@ -1818,6 +1818,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .footer {
     height: 250px;
+    bottom: -230px;
   }
 }
 
@@ -2137,7 +2138,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     top: 55%;
     left: 50%;
     width: 60%;
-    max-width: 400px;
+    max-width: 600px;
     height: 60%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -2660,7 +2661,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   .footer {
     margin: 0;
     position: relative;
-    top: 15%;
+    bottom: -100px;
     width: 100%;
     height: 200px;
     background-image: url("../image/footer7.jpg");
@@ -2761,7 +2762,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     top: 0px;
   }
   .home-title {
-    font-size: 15vh;
+    font-size: 12vh;
   }
   .home-subtitle {
     color: white;
@@ -2905,6 +2906,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .footer {
     height: 300px;
+    bottom: -200px;
   }
   .footer-top {
     left: 3px;
@@ -3269,7 +3271,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     top: 55%;
     left: 50%;
     width: 60%;
-    max-width: 400px;
+    max-width: 600px;
     height: 60%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -3792,7 +3794,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   .footer {
     margin: 0;
     position: relative;
-    top: 15%;
+    bottom: -100px;
     width: 100%;
     height: 200px;
     background-image: url("../image/footer7.jpg");
@@ -3888,7 +3890,6 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   }
   .top-page .home_content {
     top: 53%;
-    width: 40%;
   }
   .home-title {
     font-size: 13vh;
@@ -4204,7 +4205,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
     font-weight: bold;
   }
   .home-subtitle.bottom {
-    font-size: 4vh;
+    font-size: 3vh;
   }
   #p {
     font-size: 15px;

@@ -345,7 +345,7 @@ a {
         top: 55%;
         left: 50%;
         width: 60%;
-        max-width: 400px;
+        max-width: 600px;
         height: 60%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -887,7 +887,8 @@ a {
 .footer{
   margin: 0;
   position: relative;
-  top: 15%;
+  // top: 15%;
+  bottom: -100px;
   width: 100%;
   height: 200px;
   background-image: url("../image/footer7.jpg");
